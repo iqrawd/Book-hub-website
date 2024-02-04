@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+
+}
+.footer{
+    background-color:#334662;
+    height: 45px;
+    width: auto;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size:50px;
+}

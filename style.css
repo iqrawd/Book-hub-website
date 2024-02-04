@@ -1,0 +1,269 @@
+
+    body {
+        background-image: url('images/backround-pic.avif');
+        background-attachment: fixed;
+        background-size: cover; /* Image ko puri screen par cover karne ke liye */
+    }
+    
+
+
+#loginBody{
+    background-image: url("./images/backround\ 3.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.contwhit{
+    color:#fff ;
+}
+#firpic{
+    border-radius: 50px!important;
+    margin-top: 35px !important;
+    border: #334662 8px solid;
+    height: 400px;
+
+}
+
+#ep{
+    height: 40px;
+}  
+
+*{
+    /* font-family:'Times New Roman', Times, serif !important; */
+   
+ font-family: 'Merriweather', serif !important;
+margin: 0px;
+padding: 0px;
+color: #253143 !important;
+
+
+}
+p{
+    font-size: 15px !important;
+}
+#about-pic{
+    border-radius: 40px!important;
+    border: #334662 5px solid;
+}
+
+
+.background{
+    background:#334662
+}
+.logo{
+    width: 70px !important;
+    height: 30;
+}
+.logo-margin{
+    margin-bottom: -0.25px !important;
+    color: hsl(213, 69%, 97%);
+}
+.logo-color{
+    color: #334662 ;
+}
+.bg-logo{
+    background-color: white !important;
+}
+.btn{
+    color: white !important;
+    background-color:#334662 !important;
+}
+.btn:hover{
+    background-color:#576a87 !important;
+    color: #fafcff !important;
+}
+
+#logo{
+    color: #fff !important;
+}
+.btn:active{
+    background-color: white!important;
+    color: white !important;
+    outline: none !important; 
+}
+
+
+.foot-sect{
+    justify-content: center;
+    text-align:center ;
+    margin-top: 20px;
+}
+
+.nav-anchor{
+    color: white !important;
+}
+.nav-anchor:hover{
+    color: white !important;
+    text-decoration: underline;
+    text-underline-offset: 15px !important;
+}
+.nav-anchor:active{
+    color: white;
+
+}
+
+.banner-font{
+    font-size: 30px ;
+}
+
+.banner-font1{
+    font-size: 30px !important;
+}
+#contactUs{
+    background-image: url("./images/contact-pic.webp");
+
+    background-repeat: no-repeat;
+    color:#fff ;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.carousal-height{
+    height: 525px !important;
+}
+/* .aboutUs-Background{
+    background-image: url('./images/about\ us\ photo\ 2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+} */
+.aboutUS-font{
+    font-size: 15px !important;
+    line-height: 25px !important;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your styles go here */
+    .aboutUS-font {
+      font-size: 12px !important;
+      line-height: 20px !important;
+    }
+    .card-AboutUS{
+        width: 100% !important;
+    }
+    .userBtns{
+        width: fit-content !important;
+        margin-left: 30px !important;
+        margin-bottom: 20px !important;
+        
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Your styles go here */
+    .aboutUS-font {
+        font-size: 12px !important;
+        line-height: 20px !important;
+      }
+    .card-AboutUS{
+        width: 100% !important;
+    }
+    .carousal-height{
+        height: 350px !important;
+    }
+    .DOB-Width{
+        width: 100% !important;
+        margin-left: 25px !important;
+    }
+    .userBtns{
+        width: fit-content !important;
+        margin-left: 30px !important;
+        margin-bottom: 20px !important;
+        
+        
+    }
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 93.5vh;
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    text-align: start;
+}
+.label{
+    font-size: 20px;
+    font-weight: bold;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.input{
+    width: 90%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.para{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.anchor{
+    font-weight: 300;
+}
+.modalDisplay{
+    display: none !important;
+}
+
+#loginModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  #loginModal h2 {
+    margin-bottom: 10px;
+  }
+
+  #loginWithGoogleBtn {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+.footer{
+    background-color: #2f3f57 !important;
+    height: 50px !important;
+     color: rgb(250, 253, 253) !important;
+    width: 100% !important;
+
+}
+
+.footer-font{
+    font-size: 12px !important;
+}
+.icon-font{
+    font-size: 12px !important;
+}
+
+
