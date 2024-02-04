@@ -119,6 +119,9 @@ p{
     background-size: cover;
     height: auto;
     width: 100%;
+    padding-left: 60px;
+    padding-right: 60px ;
+    
 }
 .carousal-height{
     height: 525px !important;
